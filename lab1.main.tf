@@ -1,6 +1,9 @@
 provider "aws" {
   region = "us-east-2"
+
+  secret_key = var.secret_key
 }
+
 
 resource "aws_instance" "ganesh-2022" {
   ami = var.image_id

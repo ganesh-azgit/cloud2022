@@ -14,3 +14,7 @@ variable "tags" {
         name = "ganesh2022"
     }
 }
+
+variable "secret_key" {
+    type = string
+    }
